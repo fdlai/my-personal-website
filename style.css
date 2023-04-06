@@ -1,3 +1,28 @@
 body {
-    background: rgb(211, 211, 220);
+    background: rgb(0, 0, 0);
+}
+#intro {
+    color: rgb(221, 221, 221);
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+    text-shadow: 
+        4px 4px 2px rgb(0, 0, 0), 
+        -1px -1px 2px rgb(0, 0, 0),
+        0 0 100px rgb(0, 0, 255), 
+        0 0 0.2em rgb(255, 255, 255);
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#spaceBackground {
+    max-width: 100%;
+    height: auto;
 }
