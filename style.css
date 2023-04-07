@@ -1,10 +1,11 @@
 body {
     background: rgb(0, 0, 0);
+    overflow: hidden;
 }
 #intro {
     color: rgb(221, 221, 221);
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
     font-family: sans-serif;
     text-shadow: 
         4px 4px 2px rgb(0, 0, 0), 
@@ -12,7 +13,7 @@ body {
         0 0 100px rgb(0, 0, 255), 
         0 0 0.2em rgb(255, 255, 255);
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-touch-callout: none;
@@ -25,4 +26,22 @@ body {
 #spaceBackground {
     max-width: 100%;
     height: auto;
+}
+button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-family: sans-serif;
+    background-color: rgb(241, 252, 255);
+    border-radius: 50%;
+    padding: 20px;
+    color: rgb(221, 221, 221);
+    text-shadow: 
+        3px 3px 2px rgb(0, 0, 0), 
+        -1px -1px 2px rgb(0, 0, 0),
+        0 0 0.2em rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
